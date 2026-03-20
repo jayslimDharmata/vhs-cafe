@@ -450,7 +450,6 @@ export default function App() {
             ref={fileInputRef}
             type="file"
             accept="image/*"
-            capture="environment"
             style={{ display: "none" }}
             onChange={e => { scanTape(e.target.files[0]); e.target.value = ""; }}
           />
